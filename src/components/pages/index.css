@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+.header {
+  background: url(https://images.ctfassets.net/u0haasspfa6q/3P0NBDuuWRwwLuftbJy3tV/ea19b278c1fc7481b090da183985262c/111746-12726577-food_shoot_tacos_jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  margin-bottom: 5vh;
+  position: relative;
+}
+.box {
+  position: absolute;
+  width: 50%;
+  margin: 9% 25% 0;
+  background-color: rgba(0, 0, 0, 0.521);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  height: calc(60vh-60px);
+  border-radius: 30px;
+  padding: 8px;
+  box-shadow: 5px 3px rgb(236, 14, 14);
+}
+.box h4 {
+  text-align: center;
+  font-size: 1.7rem;
+  color: rgba(250, 249, 249, 0.973);
+  top: 89px;
+}
+
+.box h1 {
+  margin-left: 37px;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgb(4, 247, 45);
+  font-family: cursive;
+  font-size: 3.7rem;
+}
+
+.box h3 {
+  margin-top: 10px;
+  color: white;
+  margin-left: 90px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box h3 span {
+  color: rgb(208, 255, 0);
+}
+
+.box h2 {
+  padding: 10px;
+  color: rgba(114, 243, 243, 0.692);
+  text-align: center;
+  font-size: 15px;
+}
+
+.btn1 {
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 70px;
+  border-radius: 4px;
+  background: transparent;
+  padding: 10px 22px;
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+button:hover {
+  transition: all 0.2s ease-in-out;
+  background: rgb(49, 0, 128);
+  color: #fff;
+  letter-spacing: 1px;
+}
