@@ -1,8 +1,8 @@
 {
   "name": "restaurant",
   "version": "0.1.0",
+  "homepage": "https://ayushi-ras.github.io/React-project",
   "private": true,
-  "homepage": "http://ayushi-ras.github.io/React-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -10,6 +10,7 @@
     "bootstrap": "^5.2.2",
     "components": "^0.1.0",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
@@ -26,13 +27,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-   
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
@@ -46,10 +46,8 @@
       "last 1 safari version"
     ]
   },
-  "type": "module",
   "devDependencies": {
     "eslint": "^8.25.0",
-    "eslint-plugin-react": "^7.31.10",
-    "gh-pages": "^4.0.0"
+    "eslint-plugin-react": "^7.31.10"
   }
 }

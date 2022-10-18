@@ -1,9 +1,5 @@
 # Getting Started with Create React App
 
-Name- Ayushi Rastogi 
-Batch- 20822 
-Github-https://github.com/ayushi-ras/React-project
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
