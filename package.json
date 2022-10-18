@@ -2,7 +2,7 @@
   "name": "restaurant",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ayushi-ras.github.io/React-project/",
+  "homepage": "http://ayushi-ras.github.io/React-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -46,6 +46,7 @@
       "last 1 safari version"
     ]
   },
+  "type": "module",
   "devDependencies": {
     "eslint": "^8.25.0",
     "eslint-plugin-react": "^7.31.10",
