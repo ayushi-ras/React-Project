@@ -23,7 +23,7 @@ const Navbar = () => {
 
                 <NavMenu>
                     <NavLink
-                        to="/"
+                        to="/React-project"
                         activeStyle={{ color: 'black' }}
                     >
                         Home
