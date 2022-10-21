@@ -15,7 +15,7 @@ const Navbar = () => {
         <>
             <Nav>
                 <img src="https://www.logodesign.net/images/tutorials/restaurent-logos/restaurant-logo-designer-needs.png" alt="logo" height={78} width={130}/>
-                <NavLogo to="/">
+                <NavLogo >
                     FOOD CIRCLE
                 </NavLogo>
                 
